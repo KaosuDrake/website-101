@@ -7,6 +7,33 @@ p {
 	margin: 300px;
 }
 
+h1{text-align:center}
+
+ul{
+	text-align: center;
+	list-style: none;
+}
+
+/*------Splitting the page vertically start-----*/
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 50%;
+    background-color: #ff0000;
+    height: 400px;
+}
+
+.floatright {
+float: right;
+    background-color: #00ff00;
+    height: 400px;
+    width: 50%;
+}
+/*------Splitting the page vertically end-----*/
+
 /*------Menu start----*/
 .menu-wrap {
   width: 100%;
@@ -15,19 +42,17 @@ p {
 }
 
 .menu {
-  width: 894.5px;
-  margin: 0px auto;
+  width: 764px;
+  margin: 0 auto;
   background: #000000;
   height: 42px;
 }
 
 .menu ul {
-  margin: 0;
   padding: 0;
 }
 
 .menu li {
-  margin: 0px;
   list-style: none;
 }
 
